@@ -1,0 +1,50 @@
+@charset="UTF-8";
+body{
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-attachment: fixed;
+}
+main{
+padding: 5px;
+font-style: italic;
+min-width: 300px;
+max-width: 1050px;
+}
+p{
+  text-align: justify;
+  text-indent: 20px;
+}
+h1{
+  color: #fb5d5dba;
+}
+h2{
+  color: #8320206d;
+}
+#vogal{
+  font-family: 'Courier New';
+  text-align: center;
+  color: #0e27e8b2;
+}
+div > p{
+  display: none;
+}
+div:hover > p{
+  display: block;
+  color: blue;
+  font-family: Monospace;
+}
+div > p{
+  border: 5px solid lightgreen;
+}
+div{
+  border: 3px dashed #205464;
+  padding: 4px;
+}
+.conceito{
+  text-align: justify;
+  font-size: 2em;
+  font-style: bolder;
+  font-family: Monospace;
+}
+span{
+  color: #f6b616;
+}
