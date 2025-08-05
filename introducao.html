@@ -1,39 +1,93 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Não Metais</title>
-    <style>
-    
-      body{
-        text-align: justify;
-        font-size: 1em;
-        font-family: Arial, Helvetica, Sans-Serif;
-        line-height: 2em;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Não Metais - Introdução</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #0d6efd;
+      text-align: center;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #0d6efd;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+
+    a:hover {
+      opacity: 0.7;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #0d6efd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 20px;
+        padding: 20px;
       }
-      
-      h1{
-        font-size: 2em;
-        color: blue;
-      }
-      
-      footer{
-        background-color: black;
-        color: white;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>Introdução</h1>
-      <article>
-        <p>Os não metais formam um grupo de elementos químicos essenciais para a composição da matéria no universo e para os processos que sustentam a vida. Ao contrário dos metais, os não metais apresetam propriedades químicas e físicas distintas, como a baixa condutividade elétrica e térmica, a fragilidade(no estado sólido) e a alta electronegatividade</p>
-        <a href="index.html">Voltar</a>
-      </article>
-    </main>
-    <footer>
-      <p>Feito por Mário Manuel</p>
-    </footer>
-  </body>
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Introdução</h1>
+    <article>
+      <p>
+        Os não metais formam um grupo de elementos químicos essenciais para a composição da matéria no universo e para os processos que sustentam a vida. Ao contrário dos metais, os não metais apresentam propriedades químicas e físicas distintas, como a baixa condutividade elétrica e térmica, a fragilidade (no estado sólido) e a alta eletronegatividade.
+      </p>
+      <a href="index.html">Índice</a>
+    </article>
+  </main>
+  <div style="display:flex; justify-content:center; align-items:center; width:100%; margin-top:20px;">
+    <div style="background:#7F3FF2; color:#fff; padding:20px 30px; border-radius:10px; display:inline-block; text-align:center; font-family:Arial, sans-serif;">
+      <img src="QRCode.jpg" alt="QR PayPay" style="width:150px; margin-bottom:10px;">
+      <p style="margin:0; font-size:18px;"><strong>Faça a diferença hoje!</strong></p>
+      <p style="margin:5px 0 15px; font-size:14px;">Escaneie e apoie esta causa pelo PayPay AO 🙏</p>
+    </div>
+</div>
+  <footer>
+    Feito por <a href="https://github.com/mariojjmanuel/html-css" target="_blank">Mário Manuel</a>
+  </footer>
+</body>
 </html>
