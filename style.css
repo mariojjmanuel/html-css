@@ -1,4 +1,7 @@
 @charset="UTF-8";
+*{
+  margin: 0px;
+}
 body{
   font-family: Arial, Helvetica, Sans-Serif;
   background-attachment: fixed;
@@ -8,10 +11,12 @@ padding: 5px;
 font-style: italic;
 min-width: 300px;
 max-width: 1050px;
+margin: 10px;
 }
 p{
   text-align: justify;
   text-indent: 20px;
+  margin: 10px;
 }
 h1{
   color: #fb5d5dba;
@@ -38,6 +43,7 @@ div > p{
 div{
   border: 3px dashed #205464;
   padding: 4px;
+  margin: 5px;
 }
 .conceito{
   text-align: justify;
@@ -47,4 +53,14 @@ div{
 }
 span{
   color: #f6b616;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+}
+footer > span{
+  font-family: 'Cursive';
+  font-size: 1.5em;
 }
